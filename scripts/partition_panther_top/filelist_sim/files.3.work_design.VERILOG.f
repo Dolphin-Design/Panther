@@ -1,0 +1,10 @@
+${PANTHER_ROOT}/model/rtl/common/hci/upstream/rtl/core/hci_core_assign.sv
+${PANTHER_ROOT}/model/rtl/common/hci/upstream/rtl/core/hci_core_mux_dynamic.sv
+${PANTHER_ROOT}/model/rtl/common/hci/upstream/rtl/core/hci_core_r_valid_filter.sv
+${PANTHER_ROOT}/model/rtl/common/hci/upstream/rtl/core/hci_core_sink.sv
+${PANTHER_ROOT}/model/rtl/common/hci/upstream/rtl/core/hci_core_source.sv
+${PANTHER_ROOT}/model/rtl/common/hci/upstream/rtl/mem/hci_mem_assign.sv
+${PANTHER_ROOT}/model/rtl/common/hci/upstream/rtl/interco/hci_hwpe_interconnect.sv
+${PANTHER_ROOT}/model/rtl/common/hci/upstream/rtl/interco/hci_log_interconnect.sv
+${PANTHER_ROOT}/model/rtl/common/hci/upstream/rtl/interco/hci_shallow_interconnect.sv
+${PANTHER_ROOT}/model/rtl/common/hci/upstream/rtl/hci_interconnect.sv

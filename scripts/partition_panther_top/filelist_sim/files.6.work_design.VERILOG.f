@@ -1,0 +1,12 @@
+${PANTHER_ROOT}/model/rtl/common/axi/axi/upstream/src/axi_cdc_src.sv
+${PANTHER_ROOT}/model/rtl/common/axi/axi/upstream/src/axi_cdc_dst.sv
+${PANTHER_ROOT}/model/rtl/common/axi/axi/upstream/src/axi_busy_unit.sv
+${PANTHER_ROOT}/model/rtl/common/axi/axi/upstream/src/axi_dw_upsizer.sv
+${PANTHER_ROOT}/model/rtl/common/axi/axi/upstream/src/axi_dw_downsizer.sv
+${PANTHER_ROOT}/model/rtl/common/axi/axi/upstream/src/axi_dw_converter.sv
+${PANTHER_ROOT}/model/rtl/common/axi/axi/upstream/src/axi_id_prepend.sv
+${PANTHER_ROOT}/model/rtl/common/axi/axi/upstream/src/axi_atop_filter.sv
+${PANTHER_ROOT}/model/rtl/common/axi/axi/upstream/src/axi_demux.sv
+${PANTHER_ROOT}/model/rtl/common/axi/axi/upstream/src/axi_err_slv.sv
+${PANTHER_ROOT}/model/rtl/common/axi/axi/upstream/src/axi_mux.sv
+${PANTHER_ROOT}/model/rtl/common/axi/axi/upstream/src/axi_xbar.sv

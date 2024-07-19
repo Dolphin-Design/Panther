@@ -1,0 +1,9 @@
+${PANTHER_ROOT}/model/rtl/common/panther/upstream/rtl/axi2mem_wrap.sv
+${PANTHER_ROOT}/model/rtl/common/panther/upstream/rtl/axi2per_wrap.sv
+${PANTHER_ROOT}/model/rtl/common/panther/upstream/rtl/per2axi_wrap.sv
+${PANTHER_ROOT}/model/rtl/common/panther/upstream/rtl/per_demux_wrap.sv
+${PANTHER_ROOT}/model/rtl/common/panther/upstream/rtl/xbar_pe_wrap.sv
+${PANTHER_ROOT}/model/rtl/common/panther/design/rtl/cluster_bus_wrap.sv
+${PANTHER_ROOT}/model/rtl/common/panther/upstream/rtl/cluster_interconnect_wrap.sv
+${PANTHER_ROOT}/model/rtl/common/panther/design/rtl/per_error_plug.sv
+${PANTHER_ROOT}/model/rtl/common/panther/design/rtl/tcdm_error_plug.sv

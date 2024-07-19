@@ -1,0 +1,17 @@
+${PANTHER_ROOT}/model/rtl/common/hwpe_ctrl/upstream/rtl/hwpe_ctrl_package.sv
+${PANTHER_ROOT}/model/rtl/common/hwpe_ctrl/upstream/rtl/hwpe_ctrl_interfaces.sv
+${PANTHER_ROOT}/model/rtl/common/hwpe_ctrl/upstream/rtl/hwpe_ctrl_regfile_latch.sv
+${PANTHER_ROOT}/model/rtl/common/hwpe_ctrl/upstream/rtl/hwpe_ctrl_regfile_latch_test_wrap.sv
+${PANTHER_ROOT}/model/rtl/common/hwpe_ctrl/upstream/rtl/hwpe_ctrl_regfile.sv
+${PANTHER_ROOT}/model/rtl/common/hwpe_ctrl/upstream/rtl/hwpe_ctrl_slave.sv
+${PANTHER_ROOT}/model/rtl/common/cluster_interconnect/upstream/rtl/tcdm_interconnect/tcdm_interconnect_pkg.sv
+${PANTHER_ROOT}/model/rtl/common/cluster_interconnect/upstream/rtl/tcdm_interconnect/addr_dec_resp_mux.sv
+${PANTHER_ROOT}/model/rtl/common/cluster_interconnect/upstream/rtl/tcdm_interconnect/xbar.sv
+${PANTHER_ROOT}/model/rtl/common/cluster_interconnect/upstream/rtl/tcdm_interconnect/tcdm_interconnect.sv
+${PANTHER_ROOT}/model/rtl/common/hwpe_stream/upstream/rtl/hwpe_stream_package.sv
+${PANTHER_ROOT}/model/rtl/common/hwpe_stream/upstream/rtl/hwpe_stream_interfaces.sv
+${PANTHER_ROOT}/model/rtl/common/hwpe_stream/upstream/rtl/fifo/hwpe_stream_fifo.sv
+${PANTHER_ROOT}/model/rtl/common/hwpe_stream/upstream/rtl/streamer/hwpe_stream_addressgen_v3.sv
+${PANTHER_ROOT}/model/rtl/common/hwpe_stream/upstream/rtl/tcdm/hwpe_stream_tcdm_reorder.sv
+${PANTHER_ROOT}/model/rtl/common/hci/upstream/rtl/common/hci_package.sv
+${PANTHER_ROOT}/model/rtl/common/hci/upstream/rtl/common/hci_interfaces.sv
