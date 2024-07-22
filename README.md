@@ -1,7 +1,7 @@
 # Dolphin Design Panther IP
 
 Panther is a multi-core platform originated from [ETHZ Pulp Cluster](https://github.com/pulp-platform/pulp_cluster).
-It went through a full industrial level verification using a full platform UVM test-bench and 4 additionnal block level test-benches targetting following Panther sub-modules:
+It went through a full industrial level verification using a full platform UVM test-bench plus 4 additionnal block level test-benches targetting following Panther sub-modules:
 - MCHAN DMA
 - 2-level Shared Instruction Cache
 - Event Unit
@@ -13,9 +13,9 @@ This repository contains Panther RTL (in model/rtl) with parameters set to:
 - 16 OpenHW Group CV32E40Pv2 cores (cv32e40p_v1.8.3 tag)
 - FPU enabled
 - 256 KB Shared Tightly Coupled Data Memory
-- 32 KB Shared Instruction Cache caching a Level 2 256 KB memory area
+- 32 KB Shared Instruction Cache caching a 256 KB Level 2 memory area
 - 32-b AXI Slave and Master interface (no dedicated Shared Instruction Cache refill interface)
-- AXI interfaces synchronous interfaces
+- Synchronous AXI interfaces
 
 It contains additional technology dependent modules in model/rtl_user which need to be replaced by their targetted technology macros before going to implementation.
 Due to its delivery model, cv32e40p core has its own technology dependent clock gating cell in model/rtl/common/cv32e40p/design/rtl to be replaced as well.
@@ -29,7 +29,7 @@ This repository contains an simple test-bench consisting of:
 - an AXI RAM model (instr_slave_L2) connected to Panther’s master instruction interface if the Shared Instruction Cache has its own refill interface.
 - panther_acceptance_test that instantiates an AXI environment (axi_data_slave_env) that is used to generate transactions on AXI slave data interface and to check the responses
 
-Additionally to the test-bench, there are 3 tests that can be run on this test-bench:
+Additionally to the test-bench, there are 3 tests that can be run on it:
 - panther_matmul_32b_float_test
 - panther_matmul_32b_int_test
 - panther_coremark_test
@@ -37,10 +37,10 @@ Additionally to the test-bench, there are 3 tests that can be run on this test-b
 They consist in pre-generated AXI memories content in Verilog readmemh format.
 
 To execute one of the test:
-- Setup your evironment with your simulation tool (Siemens QUESTA, Cadence NCSIM or Synopsys VCS)
+- Setup your environment with your simulation tool (Siemens QUESTA, Cadence NCSIM or Synopsys VCS)
 - Go to simu directory
 - launch following command
-  ./run_sim.sh TOOL test_name
+  ./run_sim.sh TOOL TEST
 
 ### Tracer
 
