@@ -12,4 +12,4 @@ ${PANTHER_ROOT}/scripts/partition_panther_top/comp_panther_top_panther_top_NCSIM
 ${PANTHER_ROOT}/scripts/tb/comp_panther_top_NCSIM.do | tee comp_tb.log
 
 #Run the simulation
-xrun -q -licqueue -cdslib xcelium.d/cds.lib -64 -reflib work_testbench -top top_tb | tee simu.log
+xrun -q -licqueue -cdslib xcelium.d/cds.lib -64 -reflib work_testbench -top panther_top_tb | tee simu.log

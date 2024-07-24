@@ -12,4 +12,4 @@ ${PANTHER_ROOT}/scripts/partition_panther_top/comp_panther_top_panther_top_QUEST
 ${PANTHER_ROOT}/scripts/tb/comp_panther_top_QUESTA.do | tee comp_tb.log
 
 #Run the simulation
-vsim -64 -voptargs=+acc -L work_design -L work_testbench -lib work_testbench top_tb -c -do "run -all"  | tee simu.log
+vsim -64 -voptargs=+acc -L work_design -L work_testbench -lib work_testbench panther_top_tb -c -do "run -all"  | tee simu.log

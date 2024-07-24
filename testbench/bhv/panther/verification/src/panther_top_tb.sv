@@ -16,7 +16,7 @@
 
 //==============================================================================
 //
-//      Function: Panther Acceptance testbench
+//      Function: Panther testbench
 //
 //==============================================================================
 
@@ -34,7 +34,7 @@
 import panther_global_config_pkg::* ;
 
 
-module top_tb ();
+module panther_top_tb ();
 
     localparam int BASE_ADDR_WIDTH  = 10;
     localparam int EVNT_WIDTH       = 8;
@@ -420,7 +420,7 @@ module top_tb ();
            
              
 
-    panther_acceptance_test #(
+    panther_top_test #(
         AXI_ADDR_WIDTH     ,
         AXI_DATA_S2C_WIDTH ,
         AXI_ID_IN_WIDTH    ,
@@ -799,7 +799,7 @@ module top_tb ();
 
 `ifdef CV32E40P_TRACE_EXECUTION
 
-    `define DUT_PATH top_tb.dut_panther.dut_panther
+    `define DUT_PATH panther_top_tb.dut_panther.dut_panther
 
     generate
         for(genvar i=0; i<NB_CORES; i++) begin : gen_core_tracers

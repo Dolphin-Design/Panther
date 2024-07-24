@@ -33,8 +33,8 @@ fi
 PANTHER_ROOT="../.."
 export PANTHER_ROOT
 
-cp -f ../testbench/bhv/panther/verification/acceptance/tests/${2}/*.dat* .
-if [ -d "../testbench/bhv/panther/verification/acceptance/tests/${2}" ]; then
+cp -f ../testbench/bhv/panther/verification/tests/${2}/*.dat* .
+if [ -d "../testbench/bhv/panther/verification/tests/${2}" ]; then
 	./run_sim_${1}.sh
 else
 	echo -e "Wrong test name: ${2}"

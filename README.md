@@ -27,7 +27,7 @@ This repository contains an simple test-bench consisting of:
 - an AXI interface that is passed to test (data_slave_if) connected to Panther’s slave data interface
 - an AXI RAM model (data_slave_L2) connected to Panther’s master data interface
 - an AXI RAM model (instr_slave_L2) connected to Panther’s master instruction interface if the Shared Instruction Cache has its own refill interface.
-- panther_acceptance_test that instantiates an AXI environment (axi_data_slave_env) that is used to generate transactions on AXI slave data interface and to check the responses
+- panther_top_test that instantiates an AXI environment (axi_data_slave_env) that is used to generate transactions on AXI slave data interface and to check the responses
 
 Additionally to the test-bench, there are 3 tests that can be run on it:
 - panther_matmul_32b_float_test

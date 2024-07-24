@@ -12,5 +12,5 @@ ${PANTHER_ROOT}/scripts/partition_panther_top/comp_panther_top_panther_top_VCS.d
 ${PANTHER_ROOT}/scripts/tb/comp_panther_top_VCS.do | tee comp_tb.log
 
 #Run the simulation
-vcs -licqueue -full64 top_tb | tee elab.log
+vcs -licqueue -full64 panther_top_tb | tee elab.log
 ./simv -licqueue | tee simu.log

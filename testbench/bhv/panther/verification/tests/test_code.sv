@@ -16,13 +16,13 @@
 
 //==============================================================================
 //
-//      Function: Panther acceptance test
+//      Function: Panther test
 //
 //==============================================================================
 
 import sv_axi_pkg::*;
 
-module panther_acceptance_test #(
+module panther_top_test #(
     parameter integer AXI_ADDR_WIDTH = 32,
     parameter integer AXI_DATA_WIDTH = 32,
     parameter integer AXI_ID_WIDTH   = 8 ,

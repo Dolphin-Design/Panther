@@ -16,9 +16,9 @@ xmvlog -vtimescale 1ns/1ps -64 -sv    -nocopyright -cdslib xcelium.d/cds.lib -hd
     work_testbench \
     -pkgsearch \
     work_testbench \
-    +incdir+${PANTHER_ROOT}/testbench/bhv/panther/verification/acceptance/src/sv_axi \
-    +incdir+${PANTHER_ROOT}/testbench/bhv/panther/verification/acceptance/tests \
-    +incdir+${PANTHER_ROOT}/testbench/bhv/panther/verification/acceptance/src/bhv \
-    +incdir+${PANTHER_ROOT}/testbench/bhv/panther/verification/acceptance/src/bhv/include \
+    +incdir+${PANTHER_ROOT}/testbench/bhv/panther/verification/src/sv_axi \
+    +incdir+${PANTHER_ROOT}/testbench/bhv/panther/verification/tests \
+    +incdir+${PANTHER_ROOT}/testbench/bhv/panther/verification/src/bhv \
+    +incdir+${PANTHER_ROOT}/testbench/bhv/panther/verification/src/bhv/include \
     -f \
     ${PANTHER_ROOT}/scripts/tb/filelist_tb/files.1.work_testbench.VERILOG.f
